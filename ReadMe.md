@@ -6,11 +6,11 @@ While completing a course on RAG and Agentic AI, I faced certain issues with my 
 
 So, I introduce, Mr Banks, the helpful financial chatbot. Mr Banks will aim to use LLMs and their natural language & reasoning capabilities in a secure way, by using various tools at its disposal. This projects will be largely focused at the backend AI system. I will explicitly use types in functions and tools where applicable. Although in python these are optional, for an AI agent this is crucial information.
 
-The backbone for reasoning will be Gemini API, provided generously by Google within their free tier development under certain constraints,I will use many models during development since different models have different capabilites and rate limits. Additionally, models used within smaller agents will be hosted on my PC using Ollama.
+The backbone for reasoning will be Gemini API, provided generously by Google within their free tier development under certain constraints, I will use many other models during development since different models have different capabilites and rate limits. Additionally, models used within smaller agents will be hosted on my PC using Ollama.
 
 # Capabilities and Features
 
-1. Before making any features, I must check for any prompt injections. Therefore, I have carefully programmed Mr.Bank's persona to NOT have the primary goal as a "helpful" chatbot. Instead its primary goal is to prevent fraud. With Geminis reasoning, this prevents many attempts to breach the security protocols outright.
+1. Before making any features, I must check for any prompt injections. Therefore, I have carefully programmed Mr.Bank's persona to NOT have the primary goal as a "helpful" chatbot. Instead its primary goal is to prevent fraud. With Gemini's reasoning, this prevents many attempts to breach the security protocols outright.
 
     ![images/readme/primitive_pen_testing.png](images/readme/primitive_pen_testing.png )
 
