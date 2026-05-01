@@ -5,7 +5,7 @@
 from google import genai
 import os
 from dotenv import load_dotenv
-from UserValidationAgent import user_validation_node
+from agents.UserValidationAgent import user_validation_node
 
 from langchain_google_genai import ChatGoogleGenerativeAI
 

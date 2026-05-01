@@ -14,11 +14,15 @@ The backbone for reasoning will be Gemini API, provided generously by Google wit
 
     ![images/readme/primitive_pen_testing.png](images/readme/primitive_pen_testing.png )
 
+2. As a first feature Mr. Banks must be able to fetch user details and verify their credentials. This is potentially the most critical step as an error here could have far reaching consequences for cybersecurity, fraud and the bank's financial reposibility. If I was shipping this feature in production, this would contain a human-in-the loop system or other proven credential checking mechanisms currrently in use.  
+However for this project, `UserValidationAgent.py` will verify all credentials by passing the raw LLM response straight into SQL (CyberSec *fears* me).
+
+    ![images/readme/validation_results.png](images/readme/validation_results.png )
+
+
+
 
 # *WIP*
-
-2. As a first feature Mr. Banks must be able to fetch user details and verify their credentials. This is potentially the most critical step as an error here could have far reaching consequences for cybersecurity, fraud and the bank's financial reposibility. If I was shipping this feature in production, this would contain a human-in-the loop system or other proven credential checking mechanisms currrently in use. However for this project, Mr. Banks will verify all credentials using a deterministic tool so that it cannot simply be "convinced".
-
 
 3. Tool calling
 
